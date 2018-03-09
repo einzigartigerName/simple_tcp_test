@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FB2D1120474A5000F0DADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB2D1020474A5000F0DADA /* AppDelegate.swift */; };
+		52FB2D1320474A5000F0DADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB2D1220474A5000F0DADA /* ViewController.swift */; };
+		52FB2D1820474A5000F0DADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FB2D1720474A5000F0DADA /* Assets.xcassets */; };
+		52FB2D1B20474A5000F0DADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB2D1920474A5000F0DADA /* LaunchScreen.storyboard */; };
+		52FB2D282047514B00F0DADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB2D272047514B00F0DADA /* Main.storyboard */; };
+		A71987B8E834D920260D119E /* Pods_SimpleTCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5E28F4BEB8B431DBEC744C /* Pods_SimpleTCP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C23442FEEE6B5F9268B6B20 /* Pods-SimpleTCP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTCP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTCP/Pods-SimpleTCP.release.xcconfig"; sourceTree = "<group>"; };
+		52FB2D0D20474A5000F0DADA /* SimpleTCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB2D1020474A5000F0DADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FB2D1220474A5000F0DADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52FB2D1720474A5000F0DADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FB2D1A20474A5000F0DADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FB2D1C20474A5000F0DADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB2D272047514B00F0DADA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7CBA9D8F9DA9066CF69CD9EC /* Pods-SimpleTCP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTCP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTCP/Pods-SimpleTCP.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5E28F4BEB8B431DBEC744C /* Pods_SimpleTCP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTCP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FB2D0A20474A5000F0DADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71987B8E834D920260D119E /* Pods_SimpleTCP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52FB2D0420474A5000F0DADA = {
+			isa = PBXGroup;
+			children = (
+				52FB2D0F20474A5000F0DADA /* SimpleTCP */,
+				52FB2D0E20474A5000F0DADA /* Products */,
+				AC74BE3C328990C22B0CC259 /* Pods */,
+				8B2C72B7AC7B2CFE1430EA81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52FB2D0E20474A5000F0DADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FB2D0D20474A5000F0DADA /* SimpleTCP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FB2D0F20474A5000F0DADA /* SimpleTCP */ = {
+			isa = PBXGroup;
+			children = (
+				52FB2D1020474A5000F0DADA /* AppDelegate.swift */,
+				52FB2D1220474A5000F0DADA /* ViewController.swift */,
+				52FB2D1720474A5000F0DADA /* Assets.xcassets */,
+				52FB2D1920474A5000F0DADA /* LaunchScreen.storyboard */,
+				52FB2D1C20474A5000F0DADA /* Info.plist */,
+				52FB2D272047514B00F0DADA /* Main.storyboard */,
+			);
+			path = SimpleTCP;
+			sourceTree = "<group>";
+		};
+		8B2C72B7AC7B2CFE1430EA81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E28F4BEB8B431DBEC744C /* Pods_SimpleTCP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC74BE3C328990C22B0CC259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CBA9D8F9DA9066CF69CD9EC /* Pods-SimpleTCP.debug.xcconfig */,
+				0C23442FEEE6B5F9268B6B20 /* Pods-SimpleTCP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FB2D0C20474A5000F0DADA /* SimpleTCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB2D1F20474A5000F0DADA /* Build configuration list for PBXNativeTarget "SimpleTCP" */;
+			buildPhases = (
+				A119B22920E81D7E8F417B96 /* [CP] Check Pods Manifest.lock */,
+				52FB2D0920474A5000F0DADA /* Sources */,
+				52FB2D0A20474A5000F0DADA /* Frameworks */,
+				52FB2D0B20474A5000F0DADA /* Resources */,
+				1ABE461C89BAF30E1CB6BBC8 /* [CP] Embed Pods Frameworks */,
+				B4BC39CE617BA08D1800A29D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTCP;
+			productName = SimpleTCP;
+			productReference = 52FB2D0D20474A5000F0DADA /* SimpleTCP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FB2D0520474A5000F0DADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DodoProgramms;
+				TargetAttributes = {
+					52FB2D0C20474A5000F0DADA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52FB2D0820474A5000F0DADA /* Build configuration list for PBXProject "SimpleTCP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FB2D0420474A5000F0DADA;
+			productRefGroup = 52FB2D0E20474A5000F0DADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FB2D0C20474A5000F0DADA /* SimpleTCP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FB2D0B20474A5000F0DADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB2D282047514B00F0DADA /* Main.storyboard in Resources */,
+				52FB2D1B20474A5000F0DADA /* LaunchScreen.storyboard in Resources */,
+				52FB2D1820474A5000F0DADA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ABE461C89BAF30E1CB6BBC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTCP/Pods-SimpleTCP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTCP/Pods-SimpleTCP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A119B22920E81D7E8F417B96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTCP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BC39CE617BA08D1800A29D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTCP/Pods-SimpleTCP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FB2D0920474A5000F0DADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB2D1320474A5000F0DADA /* ViewController.swift in Sources */,
+				52FB2D1120474A5000F0DADA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52FB2D1920474A5000F0DADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FB2D1A20474A5000F0DADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FB2D1D20474A5000F0DADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FB2D1E20474A5000F0DADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FB2D2020474A5000F0DADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBA9D8F9DA9066CF69CD9EC /* Pods-SimpleTCP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB2S9VK392;
+				INFOPLIST_FILE = SimpleTCP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dodoprogramms.SimpleTCP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FB2D2120474A5000F0DADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C23442FEEE6B5F9268B6B20 /* Pods-SimpleTCP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YB2S9VK392;
+				INFOPLIST_FILE = SimpleTCP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dodoprogramms.SimpleTCP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FB2D0820474A5000F0DADA /* Build configuration list for PBXProject "SimpleTCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB2D1D20474A5000F0DADA /* Debug */,
+				52FB2D1E20474A5000F0DADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB2D1F20474A5000F0DADA /* Build configuration list for PBXNativeTarget "SimpleTCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB2D2020474A5000F0DADA /* Debug */,
+				52FB2D2120474A5000F0DADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FB2D0520474A5000F0DADA /* Project object */;
+}
